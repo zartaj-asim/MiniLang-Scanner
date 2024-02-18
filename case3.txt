@@ -1,0 +1,8 @@
+// Case 4: Boolean Expressions
+a = true
+b = false
+
+if a and b
+    print "Both a and b are true"
+else
+    print "At least one of a and b is false"

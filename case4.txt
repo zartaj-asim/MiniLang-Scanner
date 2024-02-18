@@ -1,0 +1,13 @@
+// Case 4: Lexical Errors
+x = 5
+
+// Lexical Error: Invalid Operator
+result = x *+ 10
+
+// Lexical Error: Malformed Identifier
+invalid_identifier@ = 20
+
+// Correct Statement
+y = 15
+
+print "Valid Statement:", y
