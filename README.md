@@ -1,7 +1,17 @@
 # MiniLang-Scanner
 Design and implement a scanner for MiniLang using C++ or python.
+This scanner is designed to process and tokenize MiniLang source code. MiniLang is a simple yet powerful programming language that supports basic arithmetic operations, variable assignments, if-else conditions, and print statements.
 
+## Scanner Implementation
 
+### Finite State Machine
+The scanner implements a finite state machine in C++ or Python to recognize tokens defined in MiniLang's specifications.
+
+### Tokenization
+The scanner reads MiniLang source code from a file and tokenizes it according to the language's specifications. The output is a list of tokens, each including the token type and the lexeme.
+
+### Error Handling
+The scanner recognizes and reports lexical errors, such as invalid symbols or malformed identifiers.
 
 ### Test Cases 
 - Case 1: Testing IF-Else Code
